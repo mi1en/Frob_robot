@@ -61,12 +61,13 @@ sudo apt install arp-scan
 ```bash
 sudo arp-scan --localnet
 ```
-![Пример arp-scan с выделенными IP-адресами](TODO: Добавить сюда картинку из arp-scan с выделенными IP-адресами)
+![Пример arp-scan с выделенными IP-адресами](https://github.com/dark516/Frob_robot/blob/main/images/arp-scan.jpg?raw=true)
 
 После определения IP-адреса, подключитесь к роботу через SSH:
 ```bash
 ssh login@ip
 ```
+![Пример подключения по ssh](https://github.com/dark516/Frob_robot/blob/main/images/ssh.jpg?raw=true)
 
 ### Рабочая директория
 Рабочая директория содержит весь исходный код проекта и служит для его сборки и настройки. Для перехода в неё выполните:
@@ -92,6 +93,9 @@ ros2_arduino_bridge — пакет для связи с низкоуровнев
 rqt
 ```
 И запустите «Plugins» → «Robot Tools» → «Robot Steering».
+
+![Интерфейс RQT](https://github.com/dark516/Frob_robot/blob/main/images/rqt.jpg?raw=true)
+
 Плагин Robot Steering из пакета rqt позволяет управлять движением робота через графический интерфейс, отправляя команды на контроллер (Arduino) через ROS 2.
 
 Использование плагина «Robot Steering»
